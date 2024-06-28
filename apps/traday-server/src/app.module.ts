@@ -3,6 +3,7 @@ import { TradingSignalModule } from "./tradingSignal/tradingSignal.module";
 import { ToolModule } from "./tool/tool.module";
 import { TelegramSubscriptionModule } from "./telegramSubscription/telegramSubscription.module";
 import { UserModule } from "./user/user.module";
+import { TaskModule } from "./task/task.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -19,6 +20,7 @@ import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
     ToolModule,
     TelegramSubscriptionModule,
     UserModule,
+    TaskModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
